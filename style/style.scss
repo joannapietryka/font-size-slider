@@ -1,0 +1,54 @@
+$palette: #dc2240, #fffff2, #f1f7ee, #76bdca, #1896b1;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(../img/background.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+header {
+    background: nth($palette,1);
+    h1 {
+        color:  nth($palette,2);
+        padding: .7em 0 .7em 2em;
+    }
+}
+section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#display {
+    div {
+        height: 20em;
+        background: rgba(255,255,255, .8);
+        width: 80%;
+        margin: 2em;
+        padding: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+    }
+}
+#slider {
+    .bar {
+        width: 80%;
+        height: 4em;
+        background: nth($palette,4);
+        display:flex;    
+        border-radius: 3px;
+    }
+    .bar-overlay {
+        background: nth($palette,5);
+        align-items: center;
+        border-radius: 3px;
+        p {
+            font-size: 3em;
+        }
+    
+    }
+}
