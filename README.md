@@ -1,4 +1,5 @@
 # font-size-slider
 js slider
 
-![screen] (/img/slider_screen.png)
+![Screenshot](/img/slider_screen.png) 
+
